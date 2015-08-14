@@ -1,0 +1,58 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+
+#logo img{
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+#logo h1{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    line-height: 100px;
+}
+
+.content{
+    margin: 10px 20px;
+}
+
+.content .citations .item{
+    margin: 10px 0px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.content .citations .item button{
+    height: 40px;
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.content .newCitation label{
+    width: 100px;
+    text-align: right;
+}
+
+.content .newCitation input, .content .newCitation textarea{
+    margin: 5px 0;
+}
+
+.content .newCitation button{
+    margin-left: 105px;
+}
